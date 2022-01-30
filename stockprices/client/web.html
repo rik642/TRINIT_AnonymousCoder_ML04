@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>STOCK PRICES</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="web.js"></script>
+	<link rel="stylesheet" href="web.css">
+</head>
+<body>
+  <h1>ESTIMATE STOCK CLOSE PRICES</h1>
+<form class="form">
+	<h2>OPEN</h2>
+    <input type = "text" style="width:100px; font-size:15pt; overflow:hidden;" size="10" min="100000" maxlength="1" name="OPEN" onkeyup="checkmyinput()" id="OPEN"/></input></td>
+	<h2>HIGH</h2>
+    <input type = "text" style="width:100px; font-size:15pt; overflow:hidden;" size="10" min="100000" maxlength="1" name="HIGH" onkeyup="checkmyinput()" id="HIGH"/></input></td>
+  <h2>LOW</h2>
+      <input type = "text" style="width:100px; font-size:15pt; overflow:hidden;" size="10" min="100000" maxlength="1" name="LOW" onkeyup="checkmyinput()" id="LOW"/></input></td>
+  <h2>VOLUME</h2>
+      <input type = "text" style="width:100px; font-size:15pt; overflow:hidden;" size="10" min="100000" maxlength="1" name="VOLUME" onkeyup="checkmyinput()" id="VOLUME"/></input></td>
+  <button class="submit" onclick="onClickedEstimateclose()" type="button">Estimate CLOSE VALUE</button>
+	</form>
+
+</body>
+</html>
